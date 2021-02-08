@@ -643,7 +643,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AlphaMapResolutionMetersPerPixel: 0.5
   BaseMapResolutionMetersPerPixel: 1
-  BaseMapDistance: 100000
+  BaseMapDistance: 10000
   ControlTexturePaintMaterial: {fileID: 2100000, guid: 8093b9816ff614ce9bc081a3d0629ea2,
     type: 2}
   SegmentMaterial: {fileID: 2100000, guid: c111eed486eab436a80def940284bfbd, type: 2}
@@ -993,7 +993,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1887742593}
   m_LocalRotation: {x: 0.5735764, y: -0, z: -0, w: 0.8191521}
-  m_LocalPosition: {x: 0, y: 300, z: 0}
+  m_LocalPosition: {x: 0, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1025350916}
