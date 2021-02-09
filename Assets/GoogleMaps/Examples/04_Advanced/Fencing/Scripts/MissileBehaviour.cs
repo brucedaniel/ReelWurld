@@ -136,7 +136,7 @@ namespace Google.Maps.Examples {
                 Vector3 explodePosition = explodee.transform.position;
                 if (FencingExample.placeIds.ContainsKey(instanceID)) {
                     string placeID = FencingExample.placeIds[instanceID];
-                    await spawnSphereFromPanoID(placeID, explodePosition);
+                    //await spawnSphereFromPanoID(placeID, explodePosition);
                 }
         }
     }

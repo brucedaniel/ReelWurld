@@ -56,27 +56,27 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Adrenak.UniMap/Runtime/Data/StreetView.cs" />
     <Compile Include="Assets/Adrenak.UniMap/Runtime/Pano/UserPanoDownloader.cs" />
-    <Compile Include="Assets/Adrenak.UniMap/Runtime/GeolookupRequest.cs" />
-    <Compile Include="Assets/Adrenak.UniMap/Runtime/Pano/GooglePanoDownloader.cs" />
+    <Compile Include="Assets/Adrenak.UniMap/Runtime/Data/Enums.cs" />
+    <Compile Include="Assets/Adrenak.UniMap/Runtime/GeocodingRequest.cs" />
     <Compile Include="Assets/Adrenak.UniMap/Runtime/Renderers/PanoRenderer.cs" />
+    <Compile Include="Assets/Adrenak.UniMap/Runtime/Pano/PanoUtility.cs" />
+    <Compile Include="Assets/Adrenak.UniMap/Runtime/Data/StreetView.cs" />
+    <Compile Include="Assets/Adrenak.UniMap/Runtime/Pano/GooglePanoDownloader.cs" />
     <Compile Include="Assets/Adrenak.UniMap/Runtime/TextSearchRequest.cs" />
     <Compile Include="Assets/Adrenak.UniMap/Runtime/Data/Models.cs" />
     <Compile Include="Assets/Adrenak.UniMap/Runtime/Data/EnumToString.cs" />
-    <Compile Include="Assets/Adrenak.UniMap/Runtime/StreetViewMetaRequest.cs" />
     <Compile Include="Assets/Adrenak.UniMap/Runtime/FindPlaceRequest.cs" />
-    <Compile Include="Assets/Adrenak.UniMap/Runtime/Renderers/PanoRawImage.cs" />
     <Compile Include="Assets/Adrenak.UniMap/Runtime/StreetViewDownloader.cs" />
     <Compile Include="Assets/Adrenak.UniMap/Runtime/PlacePhotoDownloader.cs" />
-    <Compile Include="Assets/Adrenak.UniMap/Runtime/NearbySearchRequest.cs" />
     <Compile Include="Assets/Adrenak.UniMap/Runtime/Data/EnumUtility.cs" />
-    <Compile Include="Assets/Adrenak.UniMap/Runtime/Data/Enums.cs" />
+    <Compile Include="Assets/Adrenak.UniMap/Runtime/GeolookupRequest.cs" />
+    <Compile Include="Assets/Adrenak.UniMap/Runtime/StreetViewMetaRequest.cs" />
+    <Compile Include="Assets/Adrenak.UniMap/Runtime/Renderers/PanoRawImage.cs" />
+    <Compile Include="Assets/Adrenak.UniMap/Runtime/NearbySearchRequest.cs" />
     <Compile Include="Assets/Adrenak.UniMap/Runtime/UniMapInitializer.cs" />
-    <Compile Include="Assets/Adrenak.UniMap/Runtime/Renderers/StreetViewRenderer.cs" />
     <Compile Include="Assets/Adrenak.UniMap/Runtime/Pano/PanoDownloader.cs" />
-    <Compile Include="Assets/Adrenak.UniMap/Runtime/GeocodingRequest.cs" />
-    <Compile Include="Assets/Adrenak.UniMap/Runtime/Pano/PanoUtility.cs" />
+    <Compile Include="Assets/Adrenak.UniMap/Runtime/Renderers/StreetViewRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/Adrenak.UniMap/Runtime/UniMap.Runtime.asmdef" />
@@ -314,29 +314,29 @@
     <Reference Include="UnityEditor.iOS.Extensions">
       <HintPath>/Applications/2020.2.3f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>Assets/GoogleMaps/Plugins/Google.Protobuf.dll</HintPath>
+    </Reference>
     <Reference Include="System.IO.Compression.FileSystem">
       <HintPath>Library/PackageCache/com.unity.connect.share@2.0.3/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
     </Reference>
     <Reference Include="Google.Maps.Proto">
       <HintPath>Assets/GoogleMaps/Plugins/Google.Maps.Proto.dll</HintPath>
     </Reference>
-    <Reference Include="Google.Maps">
-      <HintPath>Assets/GoogleMaps/Plugins/Google.Maps.dll</HintPath>
-    </Reference>
     <Reference Include="Google.Maps.Editor">
       <HintPath>Assets/GoogleMaps/Plugins/Google.Maps.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Google.Protobuf">
-      <HintPath>Assets/GoogleMaps/Plugins/Google.Protobuf.dll</HintPath>
+    <Reference Include="Google.Maps">
+      <HintPath>Assets/GoogleMaps/Plugins/Google.Maps.dll</HintPath>
     </Reference>
     <Reference Include="RestSharp">
       <HintPath>Assets/Adrenak.RestSharp.Unity/Runtime/RestSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
-      <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/2020.2.3f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

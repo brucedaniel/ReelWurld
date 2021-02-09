@@ -56,180 +56,233 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/FPS/Scripts/UI/CompassElement.cs" />
-    <Compile Include="Assets/FPS/Scripts/InGameMenuManager.cs" />
-    <Compile Include="Assets/FPS/Scripts/EnemyController.cs" />
-    <Compile Include="Assets/FPS/Scripts/DetectionModule.cs" />
-    <Compile Include="Assets/FPS/Scripts/TakeScreenshot.cs" />
-    <Compile Include="Assets/FPS/Scripts/UI/JetpackCounter.cs" />
-    <Compile Include="Assets/FPS/Scripts/UI/WeaponHUDManager.cs" />
-    <Compile Include="Assets/FPS/Scripts/UI/PlayerHealthBar.cs" />
-    <Compile Include="Assets/FPS/Scripts/UI/FeedbackFlashHUD.cs" />
-    <Compile Include="Assets/FPS/Scripts/FramerateCounter.cs" />
-    <Compile Include="Assets/FPS/Scripts/UI/StanceHUD.cs" />
-    <Compile Include="Assets/FPS/Scripts/UI/NotificationHUDManager.cs" />
-    <Compile Include="Assets/FPS/Scripts/UI/ObjectiveHUDManger.cs" />
-    <Compile Include="Assets/FPS/Scripts/UI/CrosshairManager.cs" />
-    <Compile Include="Assets/FPS/Scripts/UI/DisplayMessageManager.cs" />
-    <Compile Include="Assets/FPS/Scripts/Pickup.cs" />
-    <Compile Include="Assets/FPS/Scripts/HealthPickup.cs" />
-    <Compile Include="Assets/FPS/Scripts/FollowPlayer.cs" />
-    <Compile Include="Assets/FPS/Scripts/IgnoreHeatMap.cs" />
-    <Compile Include="Assets/FPS/Scripts/UI/Compass.cs" />
-    <Compile Include="Assets/FPS/Scripts/Damageable.cs" />
-    <Compile Include="Assets/FPS/Scripts/WeaponController.cs" />
-    <Compile Include="Assets/FPS/Scripts/GameFlowManager.cs" />
-    <Compile Include="Assets/FPS/Scripts/EnemyManager.cs" />
-    <Compile Include="Assets/FPS/Scripts/ActorsManager.cs" />
-    <Compile Include="Assets/FPS/Scripts/ObjectiveManager.cs" />
-    <Compile Include="Assets/FPS/Scripts/AudioManager.cs" />
-    <Compile Include="Assets/FPS/Scripts/PrefabReplacer.cs" />
-    <Compile Include="Assets/FPS/Scripts/EnemyMobile.cs" />
-    <Compile Include="Assets/FPS/Scripts/Health.cs" />
-    <Compile Include="Assets/FPS/Scripts/UI/WorldspaceHealthBar.cs" />
-    <Compile Include="Assets/FPS/Scripts/Actor.cs" />
-    <Compile Include="Assets/FPS/Scripts/EnemyTurret.cs" />
-    <Compile Include="Assets/FPS/Scripts/Objective.cs" />
-    <Compile Include="Assets/FPS/Scripts/ObjectiveKillEnemies.cs" />
-    <Compile Include="Assets/FPS/Scripts/UI/DisplayMessage.cs" />
-    <Compile Include="Assets/FPS/Scripts/UI/FillBarColorChange.cs" />
-    <Compile Include="Assets/FPS/Scripts/PatrolPath.cs" />
     <Compile Include="Assets/FPS/Scripts/PlayerInputHandler.cs" />
-    <Compile Include="Assets/FPS/Scripts/PlayerCharacterController.cs" />
-    <Compile Include="Assets/FPS/Scripts/PlayerWeaponsManager.cs" />
     <Compile Include="Assets/FPS/Scripts/Jetpack.cs" />
-    <Compile Include="Assets/FPS/Scripts/MeshCombiner.cs" />
-    <Compile Include="Assets/FPS/Scripts/GameConstants.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/02_Fundamentals/Scripts/Updaters/MapFeaturesController.cs" />
-    <Compile Include="Assets/FPS/Scripts/UI/AmmoCounter.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Miscellaneous/Scripts/EmissionController.cs" />
-    <Compile Include="Assets/FPS/Scripts/MinMaxParameters.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/MoreStyling/Scripts/PrefabReplacement.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Fencing/Scripts/LightFader.cs" />
-    <Compile Include="Assets/FPS/Scripts/PrefabReplacerOnInstance.cs" />
-    <Compile Include="Assets/FPS/Scripts/JetpackPickup.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Miscellaneous/Scripts/SliderController.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/02_Fundamentals/Scripts/Utils/MapsGamingExamplesUtils.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Miscellaneous/Scripts/SunAndMoonController.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Miscellaneous/Scripts/LatLngPrefabStampingExample.cs" />
-    <Compile Include="Assets/BuildingGeneratorNoiseInput.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/SharedAssets/Scripts/ExampleErrors.cs" />
+    <Compile Include="Assets/FPS/Scripts/FramerateCounter.cs" />
+    <Compile Include="Assets/FPS/Scripts/UI/DisplayMessageManager.cs" />
     <Compile Include="Assets/FPS/Scripts/TimedSelfDestruct.cs" />
     <Compile Include="Assets/FPS/Scripts/UI/CompassMarker.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Intersections/Scripts/Vehicle.cs" />
-    <Compile Include="Assets/FPS/Scripts/DamageArea.cs" />
     <Compile Include="Assets/GoogleMaps/Examples/02_Fundamentals/Scripts/BaseMapLoader.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/EditTimePreview/Scripts/EditTimePreviewExample.cs" />
-    <Compile Include="Assets/FPS/Scripts/WeaponPickup.cs" />
-    <Compile Include="Assets/FPS/Scripts/ProjectileStandard.cs" />
     <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/MoreStyling/Scripts/BuildingBorders.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/MoreStyling/Scripts/CameraFollower.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/02_Fundamentals/Scripts/Updaters/RoadLabelsCreator.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Fencing/Scripts/MissileBehaviour.cs" />
+    <Compile Include="Assets/FPS/Scripts/UI/JetpackCounter.cs" />
     <Compile Include="Assets/Scripts/PartList.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Intersections/Scripts/TrafficSystem.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/02_Fundamentals/Scripts/Updaters/BuildingLabelsCreator.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Terrain/Scripts/TerrainExample.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/SharedAssets/Scripts/JoystickButton.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/MixedZoom/Scripts/SteeringController.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/RoadLattice/Scripts/RoadLatticeAIController.cs" />
-    <Compile Include="Assets/FPS/Scripts/IgnoreHitDetection.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Intersections/Scripts/Intersections.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/RoadLattice/Scripts/CameraRigController.cs" />
-    <Compile Include="Assets/FPS/Scripts/AudioUtility.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/RoadLattice/Scripts/RoadLatticeNodesVisualizer.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/03_MapsStyling/Scripts/ExtrudedStructureConfigView.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Miscellaneous/Scripts/Minimap.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Miscellaneous/Scripts/PermissionRationaleDialog.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/SharedAssets/Scripts/ZoomPinch.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Fencing/Scripts/ActionTimer.cs" />
     <Compile Include="Assets/normals.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/RoadLattice/Scripts/AttributedRoadLattice.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Miscellaneous/Scripts/AddingComponent.cs" />
     <Compile Include="Assets/FreeMovement.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/MixedZoom/Scripts/MixedZoomLoader.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/02_Fundamentals/Scripts/Updaters/ProgressBarUpdater.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Miscellaneous/Scripts/DayAndNight.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/SharedAssets/Scripts/PanelAnimationController.cs" />
-    <Compile Include="Assets/FPS/Scripts/DebugUtility.cs" />
     <Compile Include="Assets/FPS/Scripts/UI/ToggleGameObjectButton.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Fencing/Scripts/FollowCameraController.cs" />
-    <Compile Include="Assets/PerlinGenerator.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/SharedAssets/Scripts/InstructionsHandler.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/02_Fundamentals/Scripts/Utils/ListenToDestroy.cs" />
     <Compile Include="Assets/GoogleMaps/Examples/02_Fundamentals/Scripts/UI/SearchByIdDialog.cs" />
-    <Compile Include="Assets/FPS/Scripts/UI/ObjectiveToast.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Intersections/Scripts/VehicleSpawner.cs" />
+    <Compile Include="Assets/FPS/Scripts/MeshCombiner.cs" />
     <Compile Include="Assets/FPS/Scripts/NavigationModule.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/MoreStyling/Scripts/BuildingSquashing.cs" />
-    <Compile Include="Assets/FPS/Scripts/ObjectiveReachPoint.cs" />
     <Compile Include="Assets/GoogleMaps/Examples/02_Fundamentals/Scripts/Updaters/SearchByPlaceIdUpdater.cs" />
     <Compile Include="Assets/FPS/Scripts/UI/MenuNavigation.cs" />
     <Compile Include="Assets/GridSpawner.cs" />
-    <Compile Include="Assets/FPS/Scripts/UI/LoadSceneButton.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Fencing/Scripts/TargetMovementController.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Fencing/Scripts/FenceChecker.cs" />
+    <Compile Include="Assets/FPS/Scripts/UI/NotificationHUDManager.cs" />
     <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Miscellaneous/Scripts/PrivateRoads.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Miscellaneous/Scripts/MinimapExample.cs" />
-    <Compile Include="Assets/FPS/Scripts/ProjectileChargeParameters.cs" />
-    <Compile Include="Assets/FPS/Scripts/ObjectivePickupItem.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/SharedAssets/Scripts/DynamicMapsService.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/02_Fundamentals/Scripts/Updaters/MapLabeller.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/MoreStyling/Scripts/NineSlicing.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/02_Fundamentals/Scripts/UI/MapsServiceView.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/SharedAssets/Scripts/CameraController.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/RoadLattice/Scripts/SmoothFollowCamera.cs" />
-    <Compile Include="Assets/FPS/Scripts/PositionBobbing.cs" />
+    <Compile Include="Assets/FPS/Scripts/InGameMenuManager.cs" />
+    <Compile Include="Assets/FPS/Scripts/EnemyManager.cs" />
     <Compile Include="Assets/GoogleMaps/Examples/SharedAssets/Scripts/MeshCleaner.cs" />
     <Compile Include="Assets/GoogleMaps/Examples/SharedAssets/Scripts/FloatingOriginUpdater.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/RoadLattice/Scripts/PathFindingView.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/RoadLattice/Scripts/PathingAgent.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/03_MapsStyling/Scripts/SegmentConfigView.cs" />
-    <Compile Include="Assets/BuildingGenerator.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/02_Fundamentals/Scripts/Updaters/DynamicMapsUpdater.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Fencing/Scripts/FencingExample.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/SharedAssets/Scripts/Extruder.cs" />
-    <Compile Include="Assets/FPS/Scripts/ChargedWeaponEffectsHandler.cs" />
+    <Compile Include="Assets/FPS/Scripts/UI/StanceHUD.cs" />
     <Compile Include="Assets/GoogleMaps/Examples/SharedAssets/Scripts/Label.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/03_MapsStyling/Scripts/MapsStylingEditorView.cs" />
-    <Compile Include="Assets/FPS/Scripts/Destructable.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/03_MapsStyling/Scripts/AmbianceConfigView.cs" />
+    <Compile Include="Assets/FPS/Scripts/FollowPlayer.cs" />
     <Compile Include="Assets/FPS/Scripts/ChargedProjectileEffectsHandler.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/03_MapsStyling/Scripts/RegionConfigView.cs" />
     <Compile Include="Assets/FPS/Scripts/OverheatBehavior.cs" />
-    <Compile Include="Assets/FPS/Scripts/ProjectileBase.cs" />
     <Compile Include="Assets/FPS/Scripts/UI/EnemyCounter.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/01_GettingStarted/Scripts/BasicExample.cs" />
-    <Compile Include="Assets/GoogleMaps/Scripts/DeviceCountryProvider.cs" />
-    <Compile Include="Assets/FPS/Scripts/TeleportPlayer.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/03_MapsStyling/Scripts/ModeledStructureConfigView.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/RoadLattice/Scripts/RoadLatticeCharacterController.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Fencing/Scripts/Fence.cs" />
+    <Compile Include="Assets/FPS/Scripts/HealthPickup.cs" />
     <Compile Include="Assets/GoogleMaps/Examples/02_Fundamentals/Scripts/Updaters/RoadLabelMover.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/03_MapsStyling/Scripts/AreaWaterConfigView.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/03_MapsStyling/Scripts/IStyleConfigView.cs" />
     <Compile Include="Assets/GridSpawnerNoiseInput.cs" />
     <Compile Include="Assets/GoogleMaps/Examples/03_MapsStyling/Scripts/BaseConfigView.cs" />
     <Compile Include="Assets/GoogleMaps/Examples/SharedAssets/Scripts/ExampleDefaults.cs" />
     <Compile Include="Assets/FPS/Scripts/WeaponFuelCellHandler.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/SharedAssets/Scripts/ApiKeyChecker.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/RoadLattice/Scripts/PathFindingExample.cs" />
-    <Compile Include="Assets/FPS/Scripts/ConstantRotation.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Fencing/Scripts/BuildingExploder.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/SharedAssets/Scripts/InstructionsButton.cs" />
-    <Compile Include="Assets/GeneratedObjectControl.cs" />
     <Compile Include="Assets/GoogleMaps/Examples/SharedAssets/Scripts/ErrorHandling.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/02_Fundamentals/Scripts/UI/Labeller.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/RoadLattice/Scripts/RoadLatticeTools.cs" />
+    <Compile Include="Assets/FPS/Scripts/UI/CrosshairManager.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/02_Fundamentals/Scripts/Updaters/MapFeaturesController.cs" />
+    <Compile Include="Assets/FPS/Scripts/UI/WeaponHUDManager.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/MoreStyling/Scripts/PrefabReplacement.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Miscellaneous/Scripts/SliderController.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Miscellaneous/Scripts/SunAndMoonController.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Miscellaneous/Scripts/LatLngPrefabStampingExample.cs" />
+    <Compile Include="Assets/BuildingGeneratorNoiseInput.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/SharedAssets/Scripts/ExampleErrors.cs" />
+    <Compile Include="Assets/FPS/Scripts/UI/ObjectiveHUDManger.cs" />
+    <Compile Include="Assets/FPS/Scripts/WeaponPickup.cs" />
+    <Compile Include="Assets/FPS/Scripts/UI/CompassElement.cs" />
+    <Compile Include="Assets/FPS/Scripts/EnemyTurret.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/02_Fundamentals/Scripts/Updaters/RoadLabelsCreator.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/MixedZoom/Scripts/SteeringController.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Intersections/Scripts/Intersections.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Miscellaneous/Scripts/Minimap.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Fencing/Scripts/ActionTimer.cs" />
+    <Compile Include="Assets/FPS/Scripts/ObjectiveManager.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Miscellaneous/Scripts/AddingComponent.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/02_Fundamentals/Scripts/Updaters/ProgressBarUpdater.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Miscellaneous/Scripts/DayAndNight.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/SharedAssets/Scripts/InstructionsHandler.cs" />
+    <Compile Include="Assets/FPS/Scripts/UI/ObjectiveToast.cs" />
+    <Compile Include="Assets/FPS/Scripts/Objective.cs" />
+    <Compile Include="Assets/FPS/Scripts/UI/LoadSceneButton.cs" />
+    <Compile Include="Assets/FPS/Scripts/ProjectileChargeParameters.cs" />
+    <Compile Include="Assets/FPS/Scripts/UI/DisplayMessage.cs" />
+    <Compile Include="Assets/FPS/Scripts/PositionBobbing.cs" />
+    <Compile Include="Assets/FPS/Scripts/ActorsManager.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/03_MapsStyling/Scripts/SegmentConfigView.cs" />
+    <Compile Include="Assets/BuildingGenerator.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/SharedAssets/Scripts/Extruder.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/03_MapsStyling/Scripts/RegionConfigView.cs" />
+    <Compile Include="Assets/FPS/Scripts/EnemyMobile.cs" />
+    <Compile Include="Assets/FPS/Scripts/Damageable.cs" />
+    <Compile Include="Assets/GoogleMaps/Scripts/DeviceCountryProvider.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/01_GettingStarted/Scripts/BasicExample.cs" />
+    <Compile Include="Assets/FPS/Scripts/TeleportPlayer.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/03_MapsStyling/Scripts/ModeledStructureConfigView.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/RoadLattice/Scripts/RoadLatticeCharacterController.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/03_MapsStyling/Scripts/AreaWaterConfigView.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Fencing/Scripts/BuildingExploder.cs" />
+    <Compile Include="Assets/FPS/Scripts/AudioManager.cs" />
+    <Compile Include="Assets/GeneratedObjectControl.cs" />
     <Compile Include="Assets/GoogleMaps/Examples/SharedAssets/Scripts/BuildingTexturer.cs" />
     <Compile Include="Assets/GoogleMaps/Examples/SharedAssets/Scripts/GyroController.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/MixedZoom/Scripts/ObjectFollower.cs" />
     <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/MoreStyling/Scripts/Squasher.cs" />
-    <Compile Include="Assets/FPS/Scripts/TemplateObject.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/SharedAssets/Scripts/JoystickController.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/02_Fundamentals/Scripts/UI/Labeller.cs" />
     <Compile Include="Assets/FPS/Scripts/UI/NotificationToast.cs" />
-    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/RoadLattice/Scripts/RoadLatticeTools.cs" />
     <Compile Include="Assets/FPS/Scripts/MeshCombineUtility.cs" />
     <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Miscellaneous/Scripts/LocationFollower.cs" />
+    <Compile Include="Assets/FPS/Scripts/UI/AmmoCounter.cs" />
+    <Compile Include="Assets/FPS/Scripts/Health.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/02_Fundamentals/Scripts/Utils/MapsGamingExamplesUtils.cs" />
+    <Compile Include="Assets/FPS/Scripts/ObjectiveKillEnemies.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/EditTimePreview/Scripts/EditTimePreviewExample.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Intersections/Scripts/TrafficSystem.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/02_Fundamentals/Scripts/Updaters/BuildingLabelsCreator.cs" />
+    <Compile Include="Assets/FPS/Scripts/IgnoreHitDetection.cs" />
+    <Compile Include="Assets/FPS/Scripts/PrefabReplacer.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Fencing/Scripts/FollowCameraController.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Intersections/Scripts/VehicleSpawner.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/MoreStyling/Scripts/BuildingSquashing.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Fencing/Scripts/TargetMovementController.cs" />
+    <Compile Include="Assets/FPS/Scripts/UI/PlayerHealthBar.cs" />
+    <Compile Include="Assets/FPS/Scripts/PatrolPath.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/MoreStyling/Scripts/NineSlicing.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/02_Fundamentals/Scripts/UI/MapsServiceView.cs" />
+    <Compile Include="Assets/FPS/Scripts/WeaponController.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Fencing/Scripts/FencingExample.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/03_MapsStyling/Scripts/MapsStylingEditorView.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/03_MapsStyling/Scripts/AmbianceConfigView.cs" />
+    <Compile Include="Assets/FPS/Scripts/UI/Compass.cs" />
+    <Compile Include="Assets/FPS/Scripts/DetectionModule.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Fencing/Scripts/Fence.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/03_MapsStyling/Scripts/IStyleConfigView.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/SharedAssets/Scripts/ApiKeyChecker.cs" />
+    <Compile Include="Assets/FPS/Scripts/Actor.cs" />
+    <Compile Include="Assets/FPS/Scripts/ConstantRotation.cs" />
+    <Compile Include="Assets/FPS/Scripts/UI/WorldspaceHealthBar.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/MixedZoom/Scripts/ObjectFollower.cs" />
+    <Compile Include="Assets/FPS/Scripts/Pickup.cs" />
+    <Compile Include="Assets/FPS/Scripts/TemplateObject.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/SharedAssets/Scripts/JoystickController.cs" />
+    <Compile Include="Assets/FPS/Scripts/GameConstants.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Miscellaneous/Scripts/EmissionController.cs" />
+    <Compile Include="Assets/FPS/Scripts/MinMaxParameters.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Fencing/Scripts/LightFader.cs" />
+    <Compile Include="Assets/FPS/Scripts/UI/FillBarColorChange.cs" />
+    <Compile Include="Assets/FPS/Scripts/PrefabReplacerOnInstance.cs" />
+    <Compile Include="Assets/FPS/Scripts/JetpackPickup.cs" />
+    <Compile Include="Assets/FPS/Scripts/GameFlowManager.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Intersections/Scripts/Vehicle.cs" />
+    <Compile Include="Assets/FPS/Scripts/DamageArea.cs" />
+    <Compile Include="Assets/FPS/Scripts/ProjectileStandard.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/MoreStyling/Scripts/CameraFollower.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Fencing/Scripts/MissileBehaviour.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Terrain/Scripts/TerrainExample.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/SharedAssets/Scripts/JoystickButton.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/RoadLattice/Scripts/RoadLatticeAIController.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/RoadLattice/Scripts/CameraRigController.cs" />
+    <Compile Include="Assets/FPS/Scripts/AudioUtility.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/RoadLattice/Scripts/RoadLatticeNodesVisualizer.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/03_MapsStyling/Scripts/ExtrudedStructureConfigView.cs" />
+    <Compile Include="Assets/FPS/Scripts/EnemyController.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Miscellaneous/Scripts/PermissionRationaleDialog.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/SharedAssets/Scripts/ZoomPinch.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/RoadLattice/Scripts/AttributedRoadLattice.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/MixedZoom/Scripts/MixedZoomLoader.cs" />
+    <Compile Include="Assets/FPS/Scripts/UI/FeedbackFlashHUD.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/SharedAssets/Scripts/PanelAnimationController.cs" />
+    <Compile Include="Assets/FPS/Scripts/DebugUtility.cs" />
+    <Compile Include="Assets/PerlinGenerator.cs" />
+    <Compile Include="Assets/FPS/Scripts/PlayerWeaponsManager.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/02_Fundamentals/Scripts/Utils/ListenToDestroy.cs" />
+    <Compile Include="Assets/FPS/Scripts/ObjectiveReachPoint.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Fencing/Scripts/FenceChecker.cs" />
+    <Compile Include="Assets/FPS/Scripts/ObjectivePickupItem.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/Miscellaneous/Scripts/MinimapExample.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/SharedAssets/Scripts/DynamicMapsService.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/02_Fundamentals/Scripts/Updaters/MapLabeller.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/SharedAssets/Scripts/CameraController.cs" />
+    <Compile Include="Assets/FPS/Scripts/PlayerCharacterController.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/RoadLattice/Scripts/SmoothFollowCamera.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/RoadLattice/Scripts/PathFindingView.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/RoadLattice/Scripts/PathingAgent.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/02_Fundamentals/Scripts/Updaters/DynamicMapsUpdater.cs" />
+    <Compile Include="Assets/FPS/Scripts/ChargedWeaponEffectsHandler.cs" />
+    <Compile Include="Assets/FPS/Scripts/IgnoreHeatMap.cs" />
+    <Compile Include="Assets/FPS/Scripts/Destructable.cs" />
+    <Compile Include="Assets/FPS/Scripts/ProjectileBase.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/04_Advanced/RoadLattice/Scripts/PathFindingExample.cs" />
+    <Compile Include="Assets/FPS/Scripts/TakeScreenshot.cs" />
+    <Compile Include="Assets/GoogleMaps/Examples/SharedAssets/Scripts/InstructionsButton.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/BoxBuildings/Standard/SideItemsCollection.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Elements/DummyElement.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/BoxBuildings/StandardBoxBuilding.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Lines/Standard/LineItemsCollection.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Elements/StandardElement.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Lines/StandardLine.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Decorators/MaterialRandomizerItem.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/BoxBuildings/Standard/CapItem.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Drafts/LineDraft.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Drafts/ElementDraft.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Core/Utils.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Misc/IRequired.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/IColumnBuilder.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/BoxBuildings/Standard/CapGenerationSettings.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/BoxRoofs/StandardFlatBox/RoofGenerationSettings.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/BoxRoofs/StandardFlatBox/RoofMode.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Meshes/MeshCombineItem.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Misc/ILengthScalable.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Drafts/BoxDraft.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/ILineBuilder.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Misc/ILength.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Elements/Standard/ElementItemsCollection.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Columns/Standard/ColumnItem.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Columns/Standard/ColumnItemsCollection.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/BoxBuildings/Standard/SideGenerationSettings.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Elements/Standard/ElementParameters.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Misc/IValidable.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Demo/Scripts/CameraController.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Drafts/ColumnDraft.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Demo/Scripts/Demo.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/BoxRoofs/StandardFlatBoxRoof.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Misc/IDecorator.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Columns/DummyColumn.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/BoxBuildings/Standard/BoxGenerationSettings.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Misc/IHeightScalable.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/BoxBuildings/DummyBoxBuilder.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/BoxRoofs/StandardFlatBox/RoofParameters.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Meshes/MeshCombiner.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Columns/Standard/ColumnGenerationSettings.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Misc/IRandomizable.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/IBoxBuilder.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Elements/Standard/ElementGenerationSettings.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Lines/DummyLine.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Lines/Standard/LineItem.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Misc/IDepth.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Decorators/MaterialRandomizer.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Misc/IHeight.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/BoxBuildings/Standard/SideItem.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/IElementBuilder.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Columns/StandardColumn.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Demo/Scripts/DemoUI.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Lines/Standard/LineGenerationSettings.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Elements/Standard/ElementItem.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/GoogleMaps/Examples/SharedAssets/Shaders/ScrollingTextureShader.shader" />
@@ -516,26 +569,26 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>/Applications/2020.2.3f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>Assets/GoogleMaps/Plugins/Google.Protobuf.dll</HintPath>
+    </Reference>
     <Reference Include="System.IO.Compression.FileSystem">
       <HintPath>Library/PackageCache/com.unity.connect.share@2.0.3/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
     </Reference>
     <Reference Include="Google.Maps.Proto">
       <HintPath>Assets/GoogleMaps/Plugins/Google.Maps.Proto.dll</HintPath>
     </Reference>
-    <Reference Include="Google.Maps">
-      <HintPath>Assets/GoogleMaps/Plugins/Google.Maps.dll</HintPath>
-    </Reference>
     <Reference Include="Google.Maps.Editor">
       <HintPath>Assets/GoogleMaps/Plugins/Google.Maps.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Google.Protobuf">
-      <HintPath>Assets/GoogleMaps/Plugins/Google.Protobuf.dll</HintPath>
+    <Reference Include="Google.Maps">
+      <HintPath>Assets/GoogleMaps/Plugins/Google.Maps.dll</HintPath>
     </Reference>
     <Reference Include="RestSharp">
       <HintPath>Assets/Adrenak.RestSharp.Unity/Runtime/RestSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/2020.2.3f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -888,26 +941,17 @@
     <Reference Include="mscorlib">
       <HintPath>/Applications/2020.2.3f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridgeDev.001">
-      <HintPath>Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.InteractiveTutorialsFramework">
       <HintPath>Library/ScriptAssemblies/UnityEditor.InteractiveTutorialsFramework.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
@@ -942,46 +986,55 @@
     <Reference Include="Unity.EditorCoroutines.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridgeDev.001">
+      <HintPath>Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.InteractiveTutorials.Core.Scripts">
       <HintPath>Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.Scripts.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="NavMeshComponentsEditor.csproj">
-      <Project>{E60D2EA1-C7AD-363F-59EB-35DC723C81E6}</Project>
-      <Name>NavMeshComponentsEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{882BD72C-7C15-B698-DA43-6F77C72BC993}</Project>
-      <Name>NavMeshComponents</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniMap.Runtime.csproj">
-      <Project>{9F76255E-B3FD-6231-6B17-A64710601298}</Project>
-      <Name>UniMap.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniMap.Examples.csproj">
-      <Project>{3849758A-4420-278B-38F6-6297C7BB27C0}</Project>
-      <Name>UniMap.Examples</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2DPlatformer.Tutorials.csproj">
-      <Project>{8E6FB75D-6583-28FD-42E9-7CBBA93FCF9E}</Project>
-      <Name>Unity.2DPlatformer.Tutorials</Name>
-    </ProjectReference>
-    <ProjectReference Include="Adrenak.Unex.Samples.csproj">
-      <Project>{430DA0F7-5BB1-246D-2424-0DE1DE4926D1}</Project>
-      <Name>Adrenak.Unex.Samples</Name>
+    <ProjectReference Include="Adrenak.Unex.Editor.csproj">
+      <Project>{3CA901D9-40A6-5839-66C5-B6F560E51F2A}</Project>
+      <Name>Adrenak.Unex.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Adrenak.Unex.Runtime.csproj">
       <Project>{E8E340F8-7707-0468-ED00-DCB3C561FCBB}</Project>
       <Name>Adrenak.Unex.Runtime</Name>
     </ProjectReference>
-    <ProjectReference Include="Adrenak.Unex.Editor.csproj">
-      <Project>{3CA901D9-40A6-5839-66C5-B6F560E51F2A}</Project>
-      <Name>Adrenak.Unex.Editor</Name>
+    <ProjectReference Include="UniMap.Runtime.csproj">
+      <Project>{9F76255E-B3FD-6231-6B17-A64710601298}</Project>
+      <Name>UniMap.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2DPlatformer.Tutorials.csproj">
+      <Project>{8E6FB75D-6583-28FD-42E9-7CBBA93FCF9E}</Project>
+      <Name>Unity.2DPlatformer.Tutorials</Name>
     </ProjectReference>
     <ProjectReference Include="RestSharp.Unity.csproj">
       <Project>{D8A55AD7-D591-1189-B1D4-EFBF74DE59A5}</Project>
       <Name>RestSharp.Unity</Name>
+    </ProjectReference>
+    <ProjectReference Include="Adrenak.Unex.Samples.csproj">
+      <Project>{430DA0F7-5BB1-246D-2424-0DE1DE4926D1}</Project>
+      <Name>Adrenak.Unex.Samples</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponents.csproj">
+      <Project>{882BD72C-7C15-B698-DA43-6F77C72BC993}</Project>
+      <Name>NavMeshComponents</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponentsEditor.csproj">
+      <Project>{E60D2EA1-C7AD-363F-59EB-35DC723C81E6}</Project>
+      <Name>NavMeshComponentsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniMap.Examples.csproj">
+      <Project>{3849758A-4420-278B-38F6-6297C7BB27C0}</Project>
+      <Name>UniMap.Examples</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

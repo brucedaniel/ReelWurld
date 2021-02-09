@@ -56,11 +56,24 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/FPS/Scripts/Editor/PrefabReplacerEditor.cs" />
+    <Compile Include="Assets/FPS/Scripts/Editor/ShaderBuildStripping.cs" />
     <Compile Include="Assets/GoogleMaps/Editor/Scripts/Utilities/SdkInfo.cs" />
     <Compile Include="Assets/GoogleMaps/Editor/Scripts/PropertyDrawers/LatLngDrawer.cs" />
     <Compile Include="Assets/FPS/Scripts/Editor/MiniProfiler.cs" />
-    <Compile Include="Assets/FPS/Scripts/Editor/PrefabReplacerEditor.cs" />
-    <Compile Include="Assets/FPS/Scripts/Editor/ShaderBuildStripping.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Editor/Windows/ColumnBuilderWindow.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Editor/Editors/StandardBoxBuildingEditor.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Editor/Windows/ElementBuilderWindow.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Meshes/Editor/MeshExporter.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Editor/EditorMenu.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Editor/Editors/StandardElementEditor.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Editor/Editors/StandardFlatBoxRoofEditor.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Editor/Editors/StandardLineEditor.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Editor/Windows/LineBuilderWindow.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Editor/Windows/MeshCombinerWindow.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Editor/Editors/StandardColumnEditor.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Decorators/Editor/MaterialRandomizerItemDrawer.cs" />
+    <Compile Include="Assets/ModularBuildingsFramework/Scripts/Editor/Windows/BoxBuilderWindow.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -297,29 +310,29 @@
     <Reference Include="UnityEditor.iOS.Extensions">
       <HintPath>/Applications/2020.2.3f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>Assets/GoogleMaps/Plugins/Google.Protobuf.dll</HintPath>
+    </Reference>
     <Reference Include="System.IO.Compression.FileSystem">
       <HintPath>Library/PackageCache/com.unity.connect.share@2.0.3/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
     </Reference>
     <Reference Include="Google.Maps.Proto">
       <HintPath>Assets/GoogleMaps/Plugins/Google.Maps.Proto.dll</HintPath>
     </Reference>
-    <Reference Include="Google.Maps">
-      <HintPath>Assets/GoogleMaps/Plugins/Google.Maps.dll</HintPath>
-    </Reference>
     <Reference Include="Google.Maps.Editor">
       <HintPath>Assets/GoogleMaps/Plugins/Google.Maps.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Google.Protobuf">
-      <HintPath>Assets/GoogleMaps/Plugins/Google.Protobuf.dll</HintPath>
+    <Reference Include="Google.Maps">
+      <HintPath>Assets/GoogleMaps/Plugins/Google.Maps.dll</HintPath>
     </Reference>
     <Reference Include="RestSharp">
       <HintPath>Assets/Adrenak.RestSharp.Unity/Runtime/RestSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
-      <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
@@ -681,26 +694,17 @@
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridgeDev.001">
-      <HintPath>Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.InteractiveTutorialsFramework">
       <HintPath>Library/ScriptAssemblies/UnityEditor.InteractiveTutorialsFramework.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
@@ -735,6 +739,15 @@
     <Reference Include="Unity.EditorCoroutines.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridgeDev.001">
+      <HintPath>Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.InteractiveTutorials.Core.Scripts">
       <HintPath>Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.Scripts.dll</HintPath>
     </Reference>
@@ -744,41 +757,41 @@
       <Project>{9049E634-1D37-F489-B1F5-E991046E5E04}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="NavMeshComponentsEditor.csproj">
-      <Project>{E60D2EA1-C7AD-363F-59EB-35DC723C81E6}</Project>
-      <Name>NavMeshComponentsEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{882BD72C-7C15-B698-DA43-6F77C72BC993}</Project>
-      <Name>NavMeshComponents</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniMap.Runtime.csproj">
-      <Project>{9F76255E-B3FD-6231-6B17-A64710601298}</Project>
-      <Name>UniMap.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniMap.Examples.csproj">
-      <Project>{3849758A-4420-278B-38F6-6297C7BB27C0}</Project>
-      <Name>UniMap.Examples</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2DPlatformer.Tutorials.csproj">
-      <Project>{8E6FB75D-6583-28FD-42E9-7CBBA93FCF9E}</Project>
-      <Name>Unity.2DPlatformer.Tutorials</Name>
-    </ProjectReference>
-    <ProjectReference Include="Adrenak.Unex.Samples.csproj">
-      <Project>{430DA0F7-5BB1-246D-2424-0DE1DE4926D1}</Project>
-      <Name>Adrenak.Unex.Samples</Name>
+    <ProjectReference Include="Adrenak.Unex.Editor.csproj">
+      <Project>{3CA901D9-40A6-5839-66C5-B6F560E51F2A}</Project>
+      <Name>Adrenak.Unex.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Adrenak.Unex.Runtime.csproj">
       <Project>{E8E340F8-7707-0468-ED00-DCB3C561FCBB}</Project>
       <Name>Adrenak.Unex.Runtime</Name>
     </ProjectReference>
-    <ProjectReference Include="Adrenak.Unex.Editor.csproj">
-      <Project>{3CA901D9-40A6-5839-66C5-B6F560E51F2A}</Project>
-      <Name>Adrenak.Unex.Editor</Name>
+    <ProjectReference Include="UniMap.Runtime.csproj">
+      <Project>{9F76255E-B3FD-6231-6B17-A64710601298}</Project>
+      <Name>UniMap.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2DPlatformer.Tutorials.csproj">
+      <Project>{8E6FB75D-6583-28FD-42E9-7CBBA93FCF9E}</Project>
+      <Name>Unity.2DPlatformer.Tutorials</Name>
     </ProjectReference>
     <ProjectReference Include="RestSharp.Unity.csproj">
       <Project>{D8A55AD7-D591-1189-B1D4-EFBF74DE59A5}</Project>
       <Name>RestSharp.Unity</Name>
+    </ProjectReference>
+    <ProjectReference Include="Adrenak.Unex.Samples.csproj">
+      <Project>{430DA0F7-5BB1-246D-2424-0DE1DE4926D1}</Project>
+      <Name>Adrenak.Unex.Samples</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponents.csproj">
+      <Project>{882BD72C-7C15-B698-DA43-6F77C72BC993}</Project>
+      <Name>NavMeshComponents</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponentsEditor.csproj">
+      <Project>{E60D2EA1-C7AD-363F-59EB-35DC723C81E6}</Project>
+      <Name>NavMeshComponentsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniMap.Examples.csproj">
+      <Project>{3849758A-4420-278B-38F6-6297C7BB27C0}</Project>
+      <Name>UniMap.Examples</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
