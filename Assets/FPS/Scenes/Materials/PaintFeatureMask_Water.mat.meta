@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: b0e99f93c326148199f4ac80be87502a
+labels:
+- gvh
+- gvh_version-0.0.0
+- gvhp_exportpath-GoogleMaps/Examples/04_Advanced/Terrain/Materials/PaintFeatureMask_Water.mat
+timeCreated: 1480838400
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData:
+  assetBundleName:
+  assetBundleVariant:
